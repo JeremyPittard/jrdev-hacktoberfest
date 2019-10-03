@@ -4,6 +4,22 @@ body {
     background-color: $blue;
 }
 
+.github-link {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    @media (min-width: 1024px) {
+        display: block;
+    }
+
+    a {
+        color: $light-blue;
+        text-decoration-color: $yellow;
+        text-decoration-style: dashed;
+    }
+}
 .center {
     text-align: center;
 }
@@ -62,4 +78,8 @@ body {
     figcaption {
         padding: 20px 0;
     }
+}
+
+footer {
+    margin-top: 50px;
 }
