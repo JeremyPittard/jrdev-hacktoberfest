@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: $blue;
 }
+
 .github-link {
     display: none;
     position: absolute;
@@ -77,4 +78,8 @@ body {
     figcaption {
         padding: 20px 0;
     }
+}
+
+footer {
+    margin-top: 50px;
 }
