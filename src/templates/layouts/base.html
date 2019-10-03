@@ -1,0 +1,23 @@
+{% include 'partials/head.html' %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 center">
+            <p>These wonderful people made a pull request JuniorDev Perth does Hacktoberfest!<br /></p>
+        </div>
+    </div>
+    <div class="row">
+        {%- for attendee in collections.attendees | reverse -%}
+        <div class="col-md-4 attendee">
+            <a href="{{ attendee.data.link }}" target="__blank">
+                <figure>
+                    <img src="{{ attendee.data.imageUrl }}" />
+                    <figcaption>{{ attendee.data.name }}</figcaption>
+                </figure>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% include 'partials/footer.html' %}

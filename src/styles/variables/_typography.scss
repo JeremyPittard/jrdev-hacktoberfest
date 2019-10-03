@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Eczar:600,700&display=swap");
+
+$text-colour: $white;
+$font-family: "Poppins", sans-serif;
+$text-family: "Ubuntu Mono", sans-serif;
+$heading-family: "Eczar", serif;
+
+:root {
+    font-family: $text-family;
+    font-size: 22px;
+    color: $text-colour;
+}
+
+h1,
+h2 {
+    color: inherit;
+    font-family: $heading-family;
+
+    // &-alt {
+    //     color: $alt-heading-colour;
+    // }
+}
+
+h2.large {
+    font-size: 40px;
+    line-height: 40px;
+
+    @media (min-width: 1024px) {
+        font-size: 80px;
+        line-height: 80px;
+    }
+}
