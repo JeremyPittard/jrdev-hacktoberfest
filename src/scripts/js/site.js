@@ -1,4 +1,5 @@
 //init functions
-$(document).ready(function() {
+//nothing going on here... yet.
+// $(document).ready(function() {
 
-});
+// });

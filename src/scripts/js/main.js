@@ -1,13 +1,13 @@
 // default stuff
-import "./navigation";
-import "./skip-link-focus-fix";
+// import "./navigation";
+// import "./skip-link-focus-fix";
 
 //smooth scroll
-import "./smooth-scroll";
+// import "./smooth-scroll";
 
 //slick slider
-import "./slick";
+// import "./slick";
 
 import "./site";
 
-import "./waypoints"; //used for animating elements when scrolled to.
+// import "./waypoints"; //used for animating elements when scrolled to.
