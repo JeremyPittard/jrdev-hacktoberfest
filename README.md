@@ -15,18 +15,12 @@ without worrying about everything else that might be going on.
 9. 11ty and netlify do their magic and site is deployed with your card!
 
 ### this site is made using 11ty static site generator and netlify for deployments any questions on the day about either of these myself and a few of our other mentors will be able to help also. 
-
-
-
-
-
-
-
-
-
-
-##This is the original readme for the base project below, I've made some tweaks but nothing major, folder structure to taste and added purgecss to get rid of all that bloat that comes with stuff like bootstrap grid if you are really only using one column width.
-###this is based on Deventy (all details below)
+\
+\
+\
+## This is the original readme for the base project below, I've made some tweaks but nothing major, folder structure to taste and added purgecss to get rid of all that bloat that comes with stuff like bootstrap grid if you are really only using one column width.
+\
+### this is based on Deventy (all details below)
 
 -   I have just tweaked it a bit for my liking
 -   added purgecss cli tool (trying to avoid running a heap of things through webpack)
